@@ -9,7 +9,7 @@ import { Server, Socket } from 'socket.io';
 
 @NestWebSocketGateway({ 
   cors: {
-    origin: "http://localhost:3000", // Укажите ваш клиентский URL
+    origin: "http://5.35.88.252", // Укажите ваш клиентский URL
     methods: ["GET", "POST"],
     credentials: true
   }
